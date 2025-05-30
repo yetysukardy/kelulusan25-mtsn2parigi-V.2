@@ -1,0 +1,15 @@
+
+@keyframes fade-in {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out;
+}
+.fade {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.fade.show {
+  opacity: 1;
+}
